@@ -12,11 +12,11 @@ Follow these steps to create and launch the notebook:
 
 3. For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We need to access a specific S3 bucket, so specify `amazon-reviews-pds`.
 
-![Amazon SageMaker IAM Role](/images/sm-keras-1.png)
+![Amazon SageMaker IAM Role](/img/sm-keras-1.png)
 
 4. Click ‘Create role’ to create a new role. In the ‘Git repositories’ section select the option to clone a public Git repository and use this URL: https://github.com/data-science-on-aws/amazon-reviews-recommendation-workshop
 
-![Amazon SageMaker Git Repo](/images/sm-keras-git.png)
+![Amazon SageMaker Git Repo](/img/sm-keras-git.png)
 
 5. Hit ‘Create notebook instance’ to create a new notebook instance.  _Note: It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’._
 
