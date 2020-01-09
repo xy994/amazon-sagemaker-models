@@ -10,7 +10,7 @@ Follow these steps to create and launch the notebook:
 
 2. For the instance type, pick `ml.t2.large` since our example dataset is small and we don’t intend on using GPUs for training/inference.  We're not planning to use Elastic Inference either, so you can leave the default of ‘none’.
 
-3. For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We need to accessa specific S3 bucket, so specify `amazon-reviews-pds`.
+3. For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We need to access a specific S3 bucket, so specify `amazon-reviews-pds`.
 
 ![Amazon SageMaker IAM Role](/images/sm-keras-1.png)
 
