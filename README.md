@@ -14,9 +14,11 @@ Before we dive into the mechanics of our deep learning model, let’s explore th
 
 Follow these steps to launch a notebook.
 
-Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. For the instance type, I’m going to pick ‘ml.t2.large’ since our example dataset is small and we don’t intend on using GPUs for training/inference.  We're not planning to use Elastic Inference either, so you can leave the default of ‘none’.
+Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. 
 
-For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We don't need access to specific S3 buckets, so you can select ‘None’.
+For the instance type, pick `ml.t2.large` since our example dataset is small and we don’t intend on using GPUs for training/inference.  We're not planning to use Elastic Inference either, so you can leave the default of ‘none’.
+
+For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We need to accessa specific S3 bucket, so specify `amazon-reviews-pds`.
 
 ![Amazon SageMaker IAM Role](/images/sm-keras-1.png)
 
@@ -26,7 +28,7 @@ Click ‘Create role’ to create a new role. In the ‘Git repositories’ sect
 
 Hit ‘Create notebook instance’ to create a new notebook instance.
 
-**Note:** It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’. You can move on to the next step while notebook instance is still in 'Pending' state.
+**Note:** It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’.
 
 ### Launch the Notebook
 From the Jupyter notebook web UI, please launch the notebook within it.
