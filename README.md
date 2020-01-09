@@ -18,9 +18,7 @@ Follow these steps to create and launch the notebook:
 
 ![Amazon SageMaker Git Repo](/images/sm-keras-git.png)
 
-5. Hit ‘Create notebook instance’ to create a new notebook instance.
-
-**Note:** It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’.
+5. Hit ‘Create notebook instance’ to create a new notebook instance.  _Note: It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’._
 
 6. Launch the Notebook
 From the Jupyter notebook web UI, please launch the notebook within it.
