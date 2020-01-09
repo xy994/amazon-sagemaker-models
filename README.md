@@ -14,7 +14,7 @@ Before we dive into the mechanics of our deep learning model, let’s explore th
 
 Follow these steps to launch a notebook.
 
-Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. For the instance type, I’m going to pick ‘ml.t3.medium’ since our example dataset is small and we don’t intend on using GPUs for training/inference.  We're not planning to use Elastic Inference either, so you can leave the default of ‘none’.
+Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. For the instance type, I’m going to pick ‘ml.t2.large’ since our example dataset is small and we don’t intend on using GPUs for training/inference.  We're not planning to use Elastic Inference either, so you can leave the default of ‘none’.
 
 For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We don't need access to specific S3 buckets, so you can select ‘None’.
 
