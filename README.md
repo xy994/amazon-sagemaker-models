@@ -1,4 +1,4 @@
-Follow these steps to create and launch a SageMaker Notebook:
+## Create a SageMaker Notebook Instance
 
 1. Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. 
 
@@ -14,4 +14,18 @@ Follow these steps to create and launch a SageMaker Notebook:
 
 5. Hit ‘Create notebook instance’ to create a new notebook instance.  _Note: It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’._
 
-6. Launch the Notebook from the Jupyter notebook web UI.
+## Run the Notebook Examples
+### Recommendations with Factorization Machines
+[factorization/](factorization/)
+
+### Recommendations with BlazingText
+[blazingtext/](blazingtext/)
+
+### MNIST with TensorFlow and Keras
+[tensorflow/](tensorflow/)
+
+### MNIST with PyTorch
+[pytorch/](pytorch/)
+
+### MNIST with MXNet
+[mxnet/](mxnet/)
