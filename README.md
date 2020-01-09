@@ -1,10 +1,4 @@
-## Workshop Lab Guide
-
-We will create a model that generates product recommendations based on the [Amazon Review Dataset](https://s3.amazonaws.com/amazon-reviews-pds/readme.html).  This dataset contains a 130+ million product reviews across approximately 50 product categories.
-
-Before we dive into the mechanics of our deep learning model, let’s explore the dataset and see what information we can use to predict the category. For this, we will use a notebook within Amazon SageMaker that we will can also utilize later on as our development machine.
-
-Follow these steps to create and launch the notebook:
+Follow these steps to create and launch a SageMaker Notebook:
 
 1. Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. 
 
@@ -14,7 +8,7 @@ Follow these steps to create and launch the notebook:
 
 ![Amazon SageMaker IAM Role](/img/sm-keras-1.png)
 
-4. Click ‘Create role’ to create a new role. In the ‘Git repositories’ section select the option to clone a public Git repository and use this URL: https://github.com/data-science-on-aws/amazon-reviews-recommendation-workshop
+4. Click ‘Create role’ to create a new role. In the ‘Git repositories’ section select the option to clone a public Git repository and use this URL: https://github.com/data-science-on-aws/amazon-sagemaker
 
 ![Amazon SageMaker Git Repo](/img/sm-keras-git.png)
 
