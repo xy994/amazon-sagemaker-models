@@ -8,7 +8,7 @@ https://dashboard.eventengine.run/login
 
 We will create a model that generates product recommendations based on the [Amazon Review Dataset](https://s3.amazonaws.com/amazon-reviews-pds/readme.html).  This dataset contains a 130+ million product reviews across approximately 50 product categories.
 
-### LAB1: Dataset Exploration
+### Create the Notebook
 
 Before we dive into the mechanics of our deep learning model, let’s explore the dataset and see what information we can use to predict the category. For this, we will use a notebook within Amazon SageMaker that we will can also utilize later on as our development machine.
 
@@ -42,19 +42,22 @@ From the notebook instance details page, click on the new role that you just cre
 
 ![SageMaker Notebook Terminal](/images/sm-keras-new-terminal.png)
 
-4\.	Switch into the ‘data’ directory
+### Download the Dataset
+
+1\.	Switch into the ‘data’ directory
 
 ```
 cd SageMaker/TODO/data
 ```
 
-5\. Download and unzip the dataset
+2\. Download and unzip the dataset
 
 ```
 TODO
 ```
 
-6\. Go back to the Jupyter notebook web UI. You should be in the folder called ‘TODO’. Please launch the notebook within it with the same name. Make sure the kernel you are running is ‘conda_tensorflow_p36’.
+### Launch the Notebook
+1\. Go back to the Jupyter notebook web UI. You should be in the folder called ‘TODO’. Please launch the notebook within it with the same name. Make sure the kernel you are running is ‘conda_tensorflow_p36’.
 
 ![SageMaker notebook kernel](/images/sagemaker-notebook-kernel.png)
 
