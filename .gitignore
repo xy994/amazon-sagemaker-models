@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
+customer_purchases.txt
+model.tar.gz
+vectors.bin
+vectors.txt
 data/
 model/
