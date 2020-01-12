@@ -1,5 +1,4 @@
 ## Create a SageMaker Notebook Instance
-
 1. Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. 
 
 2. For the instance type, pick `ml.t3.2xlarge` since our example dataset is small and we don’t intend on using GPUs inside the notebook.  We're not planning to use Elastic Inference either, so you can leave the default of ‘None’.
@@ -15,17 +14,12 @@
 5. Hit ‘Create notebook instance’ to create a new notebook instance.  _Note: It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’._
 
 ## Run the Notebook Examples
-### Recommendations with Factorization Machines
-[factorization/](factorization/)
+1. [Recommendations with Factorization Machines](factorization/)
 
-### Recommendations with BlazingText
-[blazingtext/](blazingtext/)
+2. [Recommendations with BlazingText](blazingtext/)
 
-### MNIST with TensorFlow and Keras
-[tensorflow/](tensorflow/)
+3. [MNIST with TensorFlow and Keras](tensorflow/)
 
-### MNIST with PyTorch
-[pytorch/](pytorch/)
+4. [MNIST with PyTorch](pytorch/)
 
-### MNIST with MXNet
-[mxnet/](mxnet/)
+5. [MNIST with MXNet](mxnet/)
