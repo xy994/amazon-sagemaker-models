@@ -14,6 +14,8 @@
 5. Hit ‘Create notebook instance’ to create a new notebook instance.  _Note: It usually takes a few minutes for the notebook instance to become available. Once available, the status of the notebook instance will change from ‘Pending’ to ‘InService’._
 
 ## Run the Notebook Examples
+_Note:  You may need to modify the instance types (ie. `ml.c5.xlarge`, etc) based on instance availability in your specific AWS account._
+
 1. [Recommendations with Factorization Machines](factorization/)
 
 2. [Recommendations with BlazingText](blazingtext/)
