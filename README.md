@@ -1,7 +1,7 @@
 ## Create a SageMaker Notebook Instance
 1. Open the Amazon SageMaker Console, select 'Notebook instances' on the left and then click on ‘Create notebook instance’ and give the notebook a name. 
 
-2. For the instance type, pick `ml.t3.2xlarge` since our example dataset is small and we don’t intend on using GPUs inside the notebook.  We're not planning to use Elastic Inference either, so you can leave the default of ‘None’.
+2. For the instance type, pick `ml.t2.large` or larger (ie. `ml.t3.2xlarge`) since our example dataset is small and we don’t intend on using GPUs inside the notebook.  We're not planning to use Elastic Inference either, so you can leave the default of ‘None’.
 
 3. For the IAM role, select ‘Create a new role’ and select the options shown below for the role configuration.  We need to access a specific S3 bucket, so specify the following:  `amazon-reviews-pds`
 
@@ -23,3 +23,6 @@
 4. [MNIST with PyTorch](pytorch/)
 
 5. [MNIST with MXNet](mxnet/)
+
+## Shut Down Your SageMaker Instance
+Avoid unexpected costs by shutting down the notebook when you're finished.
