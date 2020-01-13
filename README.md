@@ -24,5 +24,5 @@
 
 5. [MNIST with MXNet](mxnet/)
 
-## Shut Down Your SageMaker Instance
+## Shut Down the SageMaker Notebook Instance
 Avoid unexpected costs by shutting down the notebook when you're finished.
