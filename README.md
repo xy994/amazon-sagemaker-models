@@ -26,5 +26,7 @@ _Note:  You may need to modify the instance types (ie. `ml.c5.xlarge`, etc) base
 
 5. [MNIST with MXNet](mxnet/)
 
+6. [Cifar 10 with Horovad + TensorFlow](horovod/)
+
 ## Shut Down the SageMaker Notebook Instance
 Avoid unexpected costs by shutting down the notebook when you're finished.
