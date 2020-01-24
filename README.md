@@ -7,7 +7,7 @@
 
 ![Amazon SageMaker IAM Role](/img/sm-keras-1.png)
 
-4. Click ‘Create role’ to create a new role. In the ‘Git repositories’ section select the option to clone a public Git repository and use this URL:  `https://github.com/data-science-on-aws/amazon-sagemaker`
+4. Click ‘Create role’ to create a new role. In the ‘Git repositories’ section select the option to clone a public Git repository and use this URL:  *`https://github.com/data-science-on-aws/amazon-sagemaker-models`*
 
 ![Amazon SageMaker Git Repo](/img/sm-keras-git.png)
 
